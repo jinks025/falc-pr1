@@ -1,7 +1,12 @@
+*{
+  margin: 0px;
+  font-family: Arvo;
+}
+
 .topbod{
   background-color: #1F2937;
   color: white;
-  height: auto;
+  height: 500px;
   width: auto;
 }
 
@@ -34,6 +39,8 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 7px;
+  margin-top: 10px;
 }
 
 a:hover, a:visited, a:link, a:active{
@@ -42,10 +49,12 @@ a:hover, a:visited, a:link, a:active{
   text-decoration: none;
 }
 
-.tpbody .body1 .bod1-text .h1{
+.tpbody body .body1 div .bod1-text .h1{
   font-size: 48px;
   font-weight: bold;
   color: #F9FAF8;
+  font-family: Arvo;
+  font-size: 48px;
 }
 
 .topbod .lheader .list-header{
@@ -65,20 +74,20 @@ a:hover, a:visited, a:link, a:active{
   float: left;
 }
 
-.bod1-text{
+div .bod1-text{
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   width: 500px;
-  margin: auto;
 }
 
 .tpbody{
   display: grid;
   align-items: center;
   justify-content: center;
+  margin-top: -250px;
 }
 
 .tpbody .body1{
@@ -92,17 +101,20 @@ a:hover, a:visited, a:link, a:active{
   grid-column: 2;
   align-items: flex-end;
   flex-direction: column;
+  justify-content: center;
   width: 500px;
-  height: 300px;
+  height: 400px;
   background-color: #F6ECEC;
   color: black;
   display: flex;
   text-align: center;
+  margin-top: 30px;
 }
 
 .ft{
   display: grid;
   text-align: center;
+  padding-top: 20px;
 }
 
 .ft .body2 .h3{
@@ -115,8 +127,8 @@ a:hover, a:visited, a:link, a:active{
 
 .ft .boxes #ct1{
   display: flex;
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   background-color: white;
   border-radius: 25px;
   padding: 20px;
@@ -152,6 +164,7 @@ a:hover, a:visited, a:link, a:active{
   display: flex;
   flex-direction: column;
   font-style: italic;
+  font-size: 25px;
   border: 15px;
   padding: 50px;
   margin: 20px;
@@ -161,6 +174,7 @@ a:hover, a:visited, a:link, a:active{
   display: flex;
   justify-content: flex-end;
   padding: 10px;
+  font-size: 20px;
 }
 
 .cta{
@@ -170,21 +184,32 @@ a:hover, a:visited, a:link, a:active{
   margin: 50px;
   text-align: center;
   color: #F9FAF8;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: grid;
 }
 
-.cta .cta_left .cta_but .cta_button{
+.cta_left{
+  grid-column: 1;
+  text-align: left;
+  color: #F9FAF8;
+  display: flex-start;
+  flex-direction: row;
+  width: 500px;
+  padding-left: 50px;
+}
+
+.cta_button{
   background-color: #3882F6;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 7px;
+  margin-top: 10px;
 }
 
 .center_foot{
