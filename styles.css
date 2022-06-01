@@ -56,6 +56,7 @@ a:hover, a:visited, a:link, a:active{
   color: #F9FAF8;
   font-family: Arvo;
   font-size: 48px;
+  margin-top: 10px;
 }
 
 .topbod .lheader .list-header{
@@ -109,13 +110,15 @@ div .bod1-text{
   color: black;
   display: flex;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 10%;
 }
 
 .ft{
   display: grid;
   text-align: center;
   padding-top: 20px;
+  margin-top: 20px;
+  flex: 1;
 }
 
 .ft .body2 .h3{
@@ -128,8 +131,8 @@ div .bod1-text{
 
 .ft .boxes #ct1{
   display: flex;
-  width: 200px;
-  height: 200px;
+  width: 40%;
+  height: 60%;
   background-color: white;
   border-radius: 25px;
   padding: 20px;
