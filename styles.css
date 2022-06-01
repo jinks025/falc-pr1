@@ -82,7 +82,7 @@ div .bod1-text{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 500px;
+  width: 100%;
 }
 
 .tpbody{
